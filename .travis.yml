@@ -19,7 +19,7 @@ before_script:
   - echo "no tests"
 
 script:
-  - docker build -t udagram-frontend:latest ./*
+  - docker build -t udagram-frontend:latest ./Testother
   - docker tag udagram-frontend:latest mostafaibrahim/udagram-frontend:v22
 
 
